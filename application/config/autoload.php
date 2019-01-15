@@ -58,7 +58,8 @@ $autoload['packages'] = array();
 |
 |	$autoload['libraries'] = array('user_agent' => 'ua');
 */
-$autoload['libraries'] = array();
+//$autoload['libraries'] = array();
+$autoload['libraries'] = array('template', 'session', 'database');
 
 /*
 | -------------------------------------------------------------------
@@ -89,7 +90,8 @@ $autoload['drivers'] = array();
 |
 |	$autoload['helper'] = array('url', 'file');
 */
-$autoload['helper'] = array();
+//$autoload['helper'] = array();
+$autoload['helper'] = array('url','security','form','file','dateindo');
 
 /*
 | -------------------------------------------------------------------
@@ -103,7 +105,8 @@ $autoload['helper'] = array();
 | config files.  Otherwise, leave it blank.
 |
 */
-$autoload['config'] = array();
+//$autoload['config'] = array();
+$autoload['config'] = array('konstanta_config');
 
 /*
 | -------------------------------------------------------------------
